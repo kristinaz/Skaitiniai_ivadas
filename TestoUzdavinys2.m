@@ -11,6 +11,6 @@ function [ f,f_isv,f_isv2, f_isv3, f_isv4 ] = TestoUzdavinys2( x )
     f_isv = cos(x) - sin(x);
     f_isv2 = - sin(x) - cos(x);
     f_isv3 = - cos(x) + sin(x);
-    f_isv4 = sin(x) - cos(x);
+    f_isv4 = sin(x) + cos(x);
 end
 
